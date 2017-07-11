@@ -1,0 +1,17 @@
+.Qual o valor do parâmetro de rede de equilíbrio 
+para este sólido? 
+
+	O parametro de rede de equilíbrio é de 1.6, segundo os resultados das simulações.
+
+
+
+.Qual o valor da energia de coesão? 
+	7.23 unidades de energia.
+
+.Compare a energia de coesão teórica deste sólido com o resultado que você obteve e discuta estes resultados. 
+
+
+.Determine uma expressão para a energia de um sólido de Lennard – Jones com estrutura CFC em função do parâmetro de rede.
+
+
+.Compare a curva de energia teórica com os resultados obtidos na simulação e discuta os resultados.
