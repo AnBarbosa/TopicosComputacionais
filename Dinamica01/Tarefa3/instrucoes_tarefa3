@@ -1,0 +1,26 @@
+Modelo de entrada para o md1
+start>
+A primeira linha é um comentário e é ignorada.
+arquivoDeEntrada.cry
+arquivoDeSaida.md1
+n (passos de integracao)
+i (valor do passo de integração)
+d (densidade do sistema)
+s (tipo de simulação  _ -1 = energia constante, >=0 temperatura constante igual a s)
+
+
+Modelo para a Tarefa 3
+
+Para X = 0.7, 0.8, 0.95 1.10 e 1.20
+
+entradaTemperaturaX.in
+Densidade 0.9 e Temperatura X
+coordenadas.cry
+coordenadas_.md1
+2000
+0.0025
+X
+
+
+
+./md1 entradaTemperaturaX.in
