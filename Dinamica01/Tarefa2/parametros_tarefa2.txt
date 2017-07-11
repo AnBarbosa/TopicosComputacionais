@@ -1,0 +1,7 @@
+Element Code = 1
+Lattice Spacing = 1.3		# Arbitrário
+Num Cels X = 7				# pedido pela tarefa
+Num Cels Y = 7				# pedido pela tarefa
+Num Cels Z = 7				# pedido pela tarefa
+Maximum random displacement = 0.001 	# pedido pela tarefa
+Nome do Arquivo: coordenadas.cry
