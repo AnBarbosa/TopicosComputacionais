@@ -1,0 +1,7 @@
+Problema 2
+a2.cry			# Arquivo de origem
+a2.md1			# Arquivo de saida
+1000			# passos de integração
+0.0032			# Valor do passo
+0				# Densidade do sistema
+-1				# Temperatura do sistema(ou energia constante, se T= -1)

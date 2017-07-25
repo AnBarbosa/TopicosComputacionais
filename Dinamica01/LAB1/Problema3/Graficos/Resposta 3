@@ -1,0 +1,10 @@
+Pela temperatura, podemos ver que a estabilidade do sistema com o menor passo é menor(há maior oscilação) do que a estabilidade do passo maior. Comparando 0.002 e 0.05.
+
+
+Na energia cinética, vemos que 2ms 5ms e 10ms tem todos energia compativel, mas  aenergia de 50ms está muito acima da energia dos conjuntos.
+Ignorando o 50ms, vemos que a energia cinética oscila mais conforme o tamanho do passo aumenta. 
+Apesar disso, a amplitude da variação, mesmo com passo de 50ms, pode ser considerada, considerando 200 segundos de simulação. Note que essa oscilação pode aumentar com o aumento do tempo de simulação.
+
+
+
+
