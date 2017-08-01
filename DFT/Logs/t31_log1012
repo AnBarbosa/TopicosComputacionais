@@ -1,0 +1,1136 @@
+  ABINIT 
+  
+  Give name for formatted input file: 
+t31.in
+  Give name for formatted output file:
+t3x.out
+  Give root name for generic input files:
+t3xi
+  Give root name for generic output files:
+t3xo
+  Give root name for generic temporary files:
+t3x
+
+--- !WARNING
+message: |
+    Finds that output file t3x.out
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.out
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.out
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outA
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.outA
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outB
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.outB
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outC
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.outC
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outD
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.outD
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outE
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.outE
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outF
+
+
+--- !WARNING
+message: |
+    Finds that output file t3x.outF
+     already exists.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ new name assigned:t3x.outG
+
+
+--- !WARNING
+message: |
+    The starting date is more than 3 years after the initial release
+    of this version of ABINIT, namely Jul 2014.
+    This version of ABINIT is not supported anymore.
+    Action : please, switch to a more recent version of ABINIT.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+
+.Version 7.8.2 of ABINIT 
+.(sequential version, prepared for a x86_64_linux_gnu5.2 computer) 
+
+.Copyright (C) 1998-2014 ABINIT group . 
+ ABINIT comes with ABSOLUTELY NO WARRANTY.
+ It is free software, and you are welcome to redistribute it
+ under certain conditions (GNU General Public License,
+ see ~abinit/COPYING or http://www.gnu.org/copyleft/gpl.txt).
+
+ ABINIT is a project of the Universite Catholique de Louvain,
+ Corning Inc. and other collaborators, see ~abinit/doc/developers/contributors.txt .
+ Please read ~abinit/doc/users/acknowledgments.html for suggested
+ acknowledgments of the ABINIT effort.
+ For more information, see http://www.abinit.org .
+
+.Starting date : Tue  1 Aug 2017.
+- ( at 20h02 )
+  
+
+--- !WARNING
+message: |
+    The starting date is more than 3 years after the initial release
+    of this version of ABINIT, namely Jul 2014.
+    This version of ABINIT is not supported anymore.
+    Action : please, switch to a more recent version of ABINIT.
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ === Build Information === 
+  Version       : 7.8.2
+  Build target  : x86_64_linux_gnu5.2
+  Build date    : 20151122
+
+ === Compiler Suite === 
+  C compiler       : gnu5.2
+  C++ compiler     : gnu5.2
+  Fortran compiler : gnu5.2
+  CFLAGS           : -g -O2 -fstack-protector-strong -Wformat -Werror=format-security
+  CXXFLAGS         : -g -O2 -fstack-protector-strong -Wformat -Werror=format-security
+  FCFLAGS          : -g -O2 -fstack-protector-strong
+  FC_LDFLAGS       : 
+
+ === Optimizations === 
+  Debug level        : basic
+  Optimization level : standard
+  Architecture       : unknown_unknown
+
+ === Multicore === 
+  Parallel build : no
+  Parallel I/O   : no
+  openMP support : no
+  GPU support    : no
+
+ === Connectors / Fallbacks === 
+  Connectors on : yes
+  Fallbacks on  : yes
+  DFT flavor    : none
+  FFT flavor    : none
+  LINALG flavor : netlib
+  MATH flavor   : none
+  TIMER flavor  : abinit
+  TRIO flavor   : none
+
+ === Experimental features === 
+  Bindings            : @enable_bindings@
+  Exports             : no
+  GW double-precision : no
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Default optimizations:
+   --- None ---
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ CPP options activated during the build:
+
+                    CC_GNU                   CXX_GNU                    FC_GNU
+ 
+ HAVE_FC_ALLOCATABLE_DT...             HAVE_FC_ASYNC         HAVE_FC_BACKTRACE
+ 
+  HAVE_FC_COMMAND_ARGUMENT      HAVE_FC_COMMAND_LINE        HAVE_FC_CONTIGUOUS
+ 
+           HAVE_FC_CPUTIME              HAVE_FC_EXIT             HAVE_FC_FLUSH
+ 
+             HAVE_FC_GAMMA            HAVE_FC_GETENV   HAVE_FC_IEEE_EXCEPTIONS
+ 
+          HAVE_FC_INT_QUAD             HAVE_FC_IOMSG     HAVE_FC_ISO_C_BINDING
+ 
+           HAVE_FC_PRIVATE         HAVE_FC_PROTECTED         HAVE_FC_STREAM_IO
+ 
+            HAVE_FC_SYSTEM          HAVE_FORTRAN2003        HAVE_LIBPAW_ABINIT
+ 
+               HAVE_LINALG        HAVE_LINALG_SERIAL             HAVE_OS_LINUX
+ 
+                HAVE_TIMER         HAVE_TIMER_ABINIT         HAVE_TIMER_SERIAL
+ 
+              USE_MACROAVE                                                      
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- input  file    -> t31.in
+- output file    -> t3x.outG
+- root for input  files -> t3xi
+- root for output files -> t3xo
+
+-instrng :    54 lines of input have been read from file t31.in
+
+
+ iofn2 : Please give name of formatted atomic psp file
+ iofn2 : for atom type   1 , psp file is 14si.pspnc
+  read the values zionpsp=  4.0 , pspcod=   1 , lmax=   2
+
+ inpspheads: deduce mpsang  =   3, n1xccc  =2501.
+
+ invars1m : enter jdtset=0
+ invars1 : treat image number     1
+
+ symlatt : the Bravais lattice is cF (face-centered cubic)
+  xred   is defined in input file
+ ingeo : takes atomic coordinates from input array xred
+
+ symlatt : the Bravais lattice is cF (face-centered cubic)
+
+ symlatt : the Bravais lattice is cF (face-centered cubic)
+ symspgr : spgroup= 227  Fd -3 m   (=Oh^7)
+       Simple Lattice Grid
+ invars2: take the default value of fband=  1.25000000E-01
+       Simple Lattice Grid
+  dtset%nelect=   8.0000000000000000     
+ chkneu : initialized the occupation numbers for occopt=    1
+    spin-unpolarized case :
+  2.00  2.00  2.00  2.00  0.00
+mpi_setup: mkmem  undefined in the input file.Use default mkmem  = nkpt
+ mpi_setup: With nkpt_me=10 and mkmem  = 10, ground state wf handled in core.
+mpi_setup: mkqmem undefined in the input file.Use default mkqmem = nkpt
+ mpi_setup: With nkpt_me=10 and mkqmem = 10, ground state wf handled in core.
+mpi_setup: mk1mem undefined in the input file.Use default mk1mem = nkpt
+ mpi_setup: With nkpt_me=10 and mk1mem = 10, ground state wf handled in core.
+
+--- !COMMENT
+message: |
+    The second and third dimension of the FFT grid: 0, 0
+    were imposed to be multiple of the number of processors for the FFT: 1
+src_file: Subroutine Unknown
+src_line: 0
+...
+
+ For input ecut=  8.000000E+00 best grid ngfft=      20      20      20
+       max ecut=  9.636930E+00
+
+ ==== FFT mesh ====
+  FFT mesh divisions ........................    20   20   20
+  Augmented FFT divisions ...................    21   21   20
+  FFT algorithm .............................   112
+  FFT cache size ............................    16
+ getmpw: optimal value of mpw=     291
+
+ Symmetries : space group Fd -3 m (#227); Bravais cF (face-center cubic)
+
+ getdim_nloc : deduce lmnmax  =   4, lnmax  =   2,
+                      lmnmaxso=   4, lnmaxso=   2.
+memory : analysis of memory needs
+================================================================================
+ Values of the parameters that define the memory need of the present run
+   intxc =         0  ionmov =         0    iscf =         7 xclevel =         1
+  lmnmax =         2   lnmax =         2   mband =         5  mffmem =         1
+P  mgfft =        20   mkmem =        10 mpssoang=         3     mpw =       291
+  mqgrid =      3001   natom =         2    nfft =      8000    nkpt =        10
+  nloalg =         4  nspden =         1 nspinor =         1  nsppol =         1
+    nsym =        48  n1xccc =      2501  ntypat =         1  occopt =         1
+================================================================================
+P This job should need less than                       3.117 Mbytes of memory.
+  Rough estimation (10% accuracy) of disk space for files :
+_ WF disk file :      0.224 Mbytes ; DEN or POT disk file :      0.063 Mbytes.
+================================================================================
+
+ Biggest array : f_fftgr(disk), with      0.9786 MBytes.
+ memana : allocated an array of      0.979 Mbytes, for testing purposes.
+ memana : allocated       3.117 Mbytes, for testing purposes. 
+ The job will continue.
+--------------------------------------------------------------------------------
+------------- Echo of variables that govern the present computation ------------
+--------------------------------------------------------------------------------
+-
+- outvars: echo of selected default values                                      
+-   accesswff0 =  0 , fftalg0 =112 , wfoptalg0 =  0
+-
+- outvars: echo of global parameters not present in the input file              
+-  max_nthreads =    0
+-
+ -outvars: echo values of preprocessed input variables --------
+            acell      1.0120000000E+01  1.0120000000E+01  1.0120000000E+01 Bohr
+              amu      2.80855000E+01
+           diemac      1.20000000E+01
+             ecut      8.00000000E+00 Hartree
+-          fftalg         112
+              kpt     -1.25000000E-01 -2.50000000E-01  0.00000000E+00
+                      -1.25000000E-01  5.00000000E-01  0.00000000E+00
+                      -2.50000000E-01 -3.75000000E-01  0.00000000E+00
+                      -1.25000000E-01 -3.75000000E-01  1.25000000E-01
+                      -1.25000000E-01  2.50000000E-01  0.00000000E+00
+                      -2.50000000E-01  3.75000000E-01  0.00000000E+00
+                      -3.75000000E-01  5.00000000E-01  0.00000000E+00
+                      -2.50000000E-01  5.00000000E-01  1.25000000E-01
+                      -1.25000000E-01  0.00000000E+00  0.00000000E+00
+                      -3.75000000E-01  0.00000000E+00  0.00000000E+00
+         kptrlatt        4   -4    4     -4    4    4     -4   -4    4
+          kptrlen      4.04800000E+01
+P           mkmem          10
+            natom           2
+            nband           5
+            ngfft          20      20      20
+             nkpt          10
+            nstep          10
+             nsym          48
+           ntypat           1
+              occ      2.000000  2.000000  2.000000  2.000000  0.000000
+            rprim      0.0000000000E+00  5.0000000000E-01  5.0000000000E-01
+                       5.0000000000E-01  0.0000000000E+00  5.0000000000E-01
+                       5.0000000000E-01  5.0000000000E-01  0.0000000000E+00
+           shiftk      5.00000000E-01  5.00000000E-01  5.00000000E-01
+          spgroup         227
+           symrel      1  0  0   0  1  0   0  0  1      -1  0  0   0 -1  0   0  0 -1
+                       0 -1  1   0 -1  0   1 -1  0       0  1 -1   0  1  0  -1  1  0
+                      -1  0  0  -1  0  1  -1  1  0       1  0  0   1  0 -1   1 -1  0
+                       0  1 -1   1  0 -1   0  0 -1       0 -1  1  -1  0  1   0  0  1
+                      -1  0  0  -1  1  0  -1  0  1       1  0  0   1 -1  0   1  0 -1
+                       0 -1  1   1 -1  0   0 -1  0       0  1 -1  -1  1  0   0  1  0
+                       1  0  0   0  0  1   0  1  0      -1  0  0   0  0 -1   0 -1  0
+                       0  1 -1   0  0 -1   1  0 -1       0 -1  1   0  0  1  -1  0  1
+                      -1  0  1  -1  1  0  -1  0  0       1  0 -1   1 -1  0   1  0  0
+                       0 -1  0   1 -1  0   0 -1  1       0  1  0  -1  1  0   0  1 -1
+                       1  0 -1   0  0 -1   0  1 -1      -1  0  1   0  0  1   0 -1  1
+                       0  1  0   0  0  1   1  0  0       0 -1  0   0  0 -1  -1  0  0
+                       1  0 -1   0  1 -1   0  0 -1      -1  0  1   0 -1  1   0  0  1
+                       0 -1  0   0 -1  1   1 -1  0       0  1  0   0  1 -1  -1  1  0
+                      -1  0  1  -1  0  0  -1  1  0       1  0 -1   1  0  0   1 -1  0
+                       0  1  0   1  0  0   0  0  1       0 -1  0  -1  0  0   0  0 -1
+                       0  0 -1   0  1 -1   1  0 -1       0  0  1   0 -1  1  -1  0  1
+                       1 -1  0   0 -1  1   0 -1  0      -1  1  0   0  1 -1   0  1  0
+                       0  0  1   1  0  0   0  1  0       0  0 -1  -1  0  0   0 -1  0
+                      -1  1  0  -1  0  0  -1  0  1       1 -1  0   1  0  0   1  0 -1
+                       0  0  1   0  1  0   1  0  0       0  0 -1   0 -1  0  -1  0  0
+                       1 -1  0   0 -1  0   0 -1  1      -1  1  0   0  1  0   0  1 -1
+                       0  0 -1   1  0 -1   0  1 -1       0  0  1  -1  0  1   0 -1  1
+                      -1  1  0  -1  0  1  -1  0  0       1 -1  0   1  0 -1   1  0  0
+            tnons      0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+           toldfe      1.00000000E-06 Hartree
+            typat      1  1
+              wtk        0.09375    0.09375    0.09375    0.18750    0.09375    0.09375
+                         0.09375    0.18750    0.03125    0.03125
+           xangst      0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+                       1.3388183377E+00  1.3388183377E+00  1.3388183377E+00
+            xcart      0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+                       2.5300000000E+00  2.5300000000E+00  2.5300000000E+00
+             xred      0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+                       2.5000000000E-01  2.5000000000E-01  2.5000000000E-01
+            znucl       14.00000
+
+================================================================================
+
+ chkinp: machine precision is   2.2204460492503131E-16
+
+ chkinp: Checking input parameters for consistency.
+ DATA TYPE INFORMATION: 
+ REAL:      Data type name: REAL(DP) 
+            Kind value:      8
+            Precision:      15
+            Smallest nonnegligible quantity relative to 1:  0.22204460E-15
+            Smallest positive number:                       0.22250739-307
+            Largest representable number:                   0.17976931+309
+ INTEGER:   Data type name: INTEGER(default) 
+            Kind value: 4
+            Bit size:   32
+            Largest representable number: 2147483647
+ LOGICAL:   Data type name: LOGICAL 
+            Kind value: 4
+ CHARACTER: Data type name: CHARACTER             Kind value: 1
+
+  ==== OpenMP parallelism is OFF ====
+ 
+  MPI-IO support is OFF
+
+================================================================================
+== DATASET  1 ==================================================================
+-   nproc =    1
+
+
+ getdim_nloc : deduce lmnmax  =   4, lnmax  =   2,
+                      lmnmaxso=   4, lnmaxso=   2.
+ Exchange-correlation functional for the present dataset will be:
+  LDA: new Teter (4/93) with spin-polarized option - ixc=1
+ Citation for XC functional:
+  S. Goedecker, M. Teter, J. Huetter, PRB 54, 1703 (1996)
+
+ Unit cell volume ucvol=  2.5910843E+02 bohr^3
+ Angles (23,13,12)=  6.00000000E+01  6.00000000E+01  6.00000000E+01 degrees
+
+ getcut: wavevector=  0.0000  0.0000  0.0000  ngfft=  20  20  20
+         ecut(hartree)=      8.000   => boxcut(ratio)=   2.19510
+- pspini: atom type   1  psp file is 14si.pspnc
+- pspatm: opening atomic psp file    14si.pspnc
+-  Troullier-Martins psp for element  Si        Thu Oct 27 17:31:21 EDT 1994
+- 14.00000   4.00000    940714                znucl, zion, pspdat
+    1    1    2    2      2001   0.00000      pspcod,pspxc,lmax,lloc,mmax,r2well
+    0   5.907  14.692    1   2.0872718        l,e99.0,e99.9,nproj,rcpsp
+   0.00000000   0.00000000   0.00000000   0.00000000     rms, ekb1, ekb2, epsatm
+    1   2.617   4.181    1   2.0872718        l,e99.0,e99.9,nproj,rcpsp
+   0.00000000   0.00000000   0.00000000   0.00000000     rms, ekb1, ekb2, epsatm
+    2   0.000   0.000    0   2.0872718        l,e99.0,e99.9,nproj,rcpsp
+   0.00000000   0.00000000   0.00000000   0.00000000     rms, ekb1, ekb2, epsatm
+    1.80626423934776    0.22824404341771    1.17378968127746   rchrg,fchrg,qchrg
+ pspatm: epsatm=    1.43386982
+         --- l  ekb(1:nproj) -->
+             0    3.287949
+             1    1.849886
+ pspatm: atomic psp has been read  and splines computed
+
+   2.29419171E+01                                ecore*ucvol(ha*bohr**3)
+   1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2
+   1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2
+   2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1
+   2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1
+ wfconv:     5 bands initialized randomly with npw=   291, for ikpt=     1
+ wfconv:     5 bands initialized randomly with npw=   280, for ikpt=     2
+ wfconv:     5 bands initialized randomly with npw=   285, for ikpt=     3
+ wfconv:     5 bands initialized randomly with npw=   277, for ikpt=     4
+ wfconv:     5 bands initialized randomly with npw=   283, for ikpt=     5
+ wfconv:     5 bands initialized randomly with npw=   274, for ikpt=     6
+ wfconv:     5 bands initialized randomly with npw=   276, for ikpt=     7
+ wfconv:     5 bands initialized randomly with npw=   280, for ikpt=     8
+ wfconv:     5 bands initialized randomly with npw=   280, for ikpt=     9
+ wfconv:     5 bands initialized randomly with npw=   281, for ikpt=    10
+
+_setup2: Arith. and geom. avg. npw (full set) are     280.313     280.275
+ initro : for itypat=  1, take decay length=      1.1000,
+ initro : indeed, coreel=     10.0000, nval=  4 and densty=  0.0000E+00.
+
+================================================================================
+
+ getcut: wavevector=  0.0000  0.0000  0.0000  ngfft=  20  20  20
+         ecut(hartree)=      8.000   => boxcut(ratio)=   2.19510
+
+ ITER STEP NUMBER     1
+ vtorho : nnsclo_now=  2, note that nnsclo,dbl_nnsclo,istep=  0 0  1
+ Non-SCF iterations; kpt #     1  , k= ( -0.12500 -0.25000  0.00000  ), band residuals:
+ res:  4.77E-02  3.28E-02  1.82E-02  3.61E-02  1.84E-02
+ ene: -1.97E-01  9.85E-02  1.57E-01  1.68E-01  3.36E-01
+ res:  1.68E-04  1.64E-04  2.84E-05  2.49E-04  2.34E-03
+ ene: -2.15E-01  8.34E-02  1.53E-01  1.56E-01  2.93E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =1
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -2.1538E-01  8.3409E-02  1.5254E-01  1.5580E-01  2.9258E-01
+ Non-SCF iterations; kpt #     2  , k= ( -0.12500  0.50000  0.00000  ), band residuals:
+ res:  4.05E-02  5.09E-02  2.36E-02  1.43E-02  1.98E-02
+ ene: -1.22E-01 -3.33E-02  1.30E-01  1.60E-01  3.09E-01
+ res:  4.29E-04  1.36E-04  1.84E-04  3.78E-04  5.99E-04
+ ene: -1.53E-01 -4.68E-02  1.18E-01  1.43E-01  2.95E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =2
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.5283E-01 -4.6759E-02  1.1839E-01  1.4312E-01  2.9539E-01
+ Non-SCF iterations; kpt #     3  , k= ( -0.25000 -0.37500  0.00000  ), band residuals:
+ res:  3.93E-02  2.25E-02  1.97E-02  3.92E-02  1.74E-02
+ ene: -1.61E-01  3.18E-02  1.09E-01  1.26E-01  2.92E-01
+ res:  1.41E-04  2.39E-04  6.54E-05  1.52E-04  8.29E-04
+ ene: -1.76E-01  1.94E-02  1.04E-01  1.20E-01  2.64E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =3
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.7603E-01  1.9383E-02  1.0435E-01  1.2009E-01  2.6423E-01
+ Non-SCF iterations; kpt #     4  , k= ( -0.12500 -0.37500  0.12500  ), band residuals:
+ res:  3.15E-02  4.29E-02  4.49E-02  3.32E-02  3.10E-02
+ ene: -1.44E-01  9.43E-03  9.10E-02  1.42E-01  3.69E-01
+ res:  1.77E-04  2.43E-04  1.26E-04  1.97E-04  2.88E-03
+ ene: -1.60E-01 -1.37E-02  8.11E-02  1.31E-01  3.32E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =4
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.6013E-01 -1.3736E-02  8.1053E-02  1.3067E-01  3.3164E-01
+ Non-SCF iterations; kpt #     5  , k= ( -0.12500  0.25000  0.00000  ), band residuals:
+ res:  5.03E-02  4.11E-02  4.38E-02  2.59E-02  3.73E-02
+ ene: -1.68E-01  5.33E-02  1.30E-01  1.83E-01  3.59E-01
+ res:  3.75E-04  4.36E-04  2.50E-04  2.81E-04  9.13E-04
+ ene: -1.96E-01  3.18E-02  1.18E-01  1.71E-01  3.15E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =5
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.9628E-01  3.1842E-02  1.1765E-01  1.7111E-01  3.1504E-01
+ Non-SCF iterations; kpt #     6  , k= ( -0.25000  0.37500  0.00000  ), band residuals:
+ res:  3.09E-02  2.19E-02  4.26E-02  2.96E-02  2.87E-02
+ ene: -1.15E-01 -1.65E-02  7.37E-02  1.42E-01  3.25E-01
+ res:  5.78E-04  7.80E-04  5.28E-04  2.38E-04  7.60E-04
+ ene: -1.34E-01 -4.34E-02  5.67E-02  1.32E-01  2.83E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =6
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.3379E-01 -4.3382E-02  5.6671E-02  1.3153E-01  2.8349E-01
+ Non-SCF iterations; kpt #     7  , k= ( -0.37500  0.50000  0.00000  ), band residuals:
+ res:  2.74E-02  1.70E-02  2.01E-02  2.93E-02  1.43E-02
+ ene: -1.15E-01 -4.22E-03  7.93E-02  1.22E-01  2.96E-01
+ res:  3.43E-05  7.24E-04  3.39E-05  5.48E-04  9.82E-03
+ ene: -1.20E-01 -5.09E-02  7.66E-02  1.03E-01  2.56E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =7
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.1988E-01 -5.0937E-02  7.6593E-02  1.0272E-01  2.5607E-01
+ Non-SCF iterations; kpt #     8  , k= ( -0.25000  0.50000  0.12500  ), band residuals:
+ res:  2.13E-02  2.87E-02  2.61E-02  1.10E-02  2.70E-02
+ ene: -9.23E-02 -4.57E-02  6.47E-02  1.10E-01  3.33E-01
+ res:  3.30E-04  1.84E-04  2.21E-04  1.26E-04  6.22E-04
+ ene: -1.13E-01 -5.50E-02  5.43E-02  9.38E-02  3.03E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =8
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.1348E-01 -5.4951E-02  5.4253E-02  9.3833E-02  3.0253E-01
+ Non-SCF iterations; kpt #     9  , k= ( -0.12500  0.00000  0.00000  ), band residuals:
+ res:  6.53E-02  1.48E-02  7.12E-02  4.71E-02  1.65E-02
+ ene: -2.07E-01  1.82E-01  1.97E-01  2.48E-01  3.37E-01
+ res:  5.12E-04  7.63E-04  7.73E-04  1.30E-03  1.28E-03
+ ene: -2.35E-01  1.43E-01  1.89E-01  1.89E-01  3.11E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =9
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -2.3536E-01  1.4343E-01  1.8881E-01  1.8911E-01  3.1074E-01
+ Non-SCF iterations; kpt #    10  , k= ( -0.37500  0.00000  0.00000  ), band residuals:
+ res:  4.06E-02  4.42E-02  2.51E-02  1.99E-02  8.48E-03
+ ene: -1.49E-01 -9.92E-03  1.61E-01  1.88E-01  3.15E-01
+ res:  5.87E-04  8.31E-05  5.47E-06  6.88E-04  2.78E-03
+ ene: -1.80E-01 -1.69E-02  1.60E-01  1.60E-01  2.77E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =10
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.7954E-01 -1.6923E-02  1.5993E-01  1.6039E-01  2.7672E-01
+ Total charge density [el/Bohr^3]
+,     Maximum=    9.4918E-02  at reduced coord.    0.1000    0.1000    0.7000
+,     Minimum=    3.0213E-03  at reduced coord.    0.5000    0.5000    0.5000
+,  Integrated=    8.0000E+00
+ ETOT  1  -8.8668130298126    -8.867E+00 9.823E-03 6.209E+00
+ scprqt: <Vxc>= -3.5564577E-01 hartree
+
+Simple mixing update:
+  residual square of the potential :   2.6970709529721710
+
+ ITER STEP NUMBER     2
+ vtorho : nnsclo_now=  2, note that nnsclo,dbl_nnsclo,istep=  0 0  2
+ Non-SCF iterations; kpt #     1  , k= ( -0.12500 -0.25000  0.00000  ), band residuals:
+ res:  3.24E-05  1.20E-05  1.27E-06  2.69E-05  8.36E-05
+ ene: -1.94E-01  1.08E-01  1.78E-01  1.81E-01  3.07E-01
+ res:  2.59E-09  8.51E-10  1.68E-10  3.32E-09  1.78E-07
+ ene: -1.94E-01  1.08E-01  1.78E-01  1.81E-01  3.07E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =11
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.9385E-01  1.0812E-01  1.7766E-01  1.8125E-01  3.0697E-01
+ Non-SCF iterations; kpt #     2  , k= ( -0.12500  0.50000  0.00000  ), band residuals:
+ res:  9.01E-06  4.79E-05  2.04E-05  8.94E-07  4.80E-05
+ ene: -1.29E-01 -2.65E-02  1.42E-01  1.69E-01  3.10E-01
+ res:  2.24E-10  2.64E-10  1.34E-10  1.36E-10  2.47E-07
+ ene: -1.29E-01 -2.65E-02  1.42E-01  1.69E-01  3.10E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =12
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.2922E-01 -2.6479E-02  1.4189E-01  1.6866E-01  3.0997E-01
+ Non-SCF iterations; kpt #     3  , k= ( -0.25000 -0.37500  0.00000  ), band residuals:
+ res:  3.54E-05  6.75E-06  1.67E-05  7.48E-07  5.57E-05
+ ene: -1.54E-01  4.47E-02  1.26E-01  1.44E-01  2.76E-01
+ res:  9.20E-10  1.62E-10  4.03E-10  7.89E-11  1.51E-07
+ ene: -1.54E-01  4.47E-02  1.26E-01  1.44E-01  2.76E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =13
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.5376E-01  4.4716E-02  1.2602E-01  1.4376E-01  2.7612E-01
+ Non-SCF iterations; kpt #     4  , k= ( -0.12500 -0.37500  0.12500  ), band residuals:
+ res:  1.84E-05  3.17E-05  3.07E-05  5.52E-06  1.37E-03
+ ene: -1.37E-01  9.60E-03  1.02E-01  1.54E-01  3.36E-01
+ res:  4.28E-08  1.01E-07  7.10E-08  1.18E-08  1.54E-05
+ ene: -1.37E-01  9.58E-03  1.02E-01  1.54E-01  3.35E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =14
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.3729E-01  9.5759E-03  1.0151E-01  1.5435E-01  3.3463E-01
+ Non-SCF iterations; kpt #     5  , k= ( -0.12500  0.25000  0.00000  ), band residuals:
+ res:  1.89E-05  3.67E-05  1.91E-05  4.54E-07  1.43E-04
+ ene: -1.74E-01  5.49E-02  1.40E-01  1.99E-01  3.31E-01
+ res:  2.21E-09  5.27E-09  1.22E-09  1.71E-10  4.38E-07
+ ene: -1.74E-01  5.49E-02  1.40E-01  1.99E-01  3.31E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =15
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.7438E-01  5.4865E-02  1.4008E-01  1.9887E-01  3.3113E-01
+ Non-SCF iterations; kpt #     6  , k= ( -0.25000  0.37500  0.00000  ), band residuals:
+ res:  4.95E-06  3.61E-05  1.32E-05  5.74E-07  2.84E-05
+ ene: -1.10E-01 -2.08E-02  7.55E-02  1.56E-01  2.95E-01
+ res:  1.19E-10  1.52E-10  1.74E-11  2.21E-11  1.67E-09
+ ene: -1.10E-01 -2.08E-02  7.55E-02  1.56E-01  2.95E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =16
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.1002E-01 -2.0828E-02  7.5535E-02  1.5621E-01  2.9488E-01
+ Non-SCF iterations; kpt #     7  , k= ( -0.37500  0.50000  0.00000  ), band residuals:
+ res:  2.32E-05  1.22E-05  5.31E-06  9.81E-07  4.19E-05
+ ene: -9.65E-02 -2.64E-02  9.64E-02  1.26E-01  2.58E-01
+ res:  3.14E-09  1.10E-09  2.39E-10  2.06E-10  4.29E-07
+ ene: -9.65E-02 -2.64E-02  9.64E-02  1.26E-01  2.58E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =17
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -9.6470E-02 -2.6437E-02  9.6390E-02  1.2574E-01  2.5832E-01
+ Non-SCF iterations; kpt #     8  , k= ( -0.25000  0.50000  0.12500  ), band residuals:
+ res:  1.23E-05  1.48E-05  8.73E-06  3.60E-05  7.23E-05
+ ene: -8.93E-02 -3.06E-02  7.23E-02  1.15E-01  3.15E-01
+ res:  4.08E-10  3.15E-10  8.01E-11  8.24E-10  1.03E-07
+ ene: -8.93E-02 -3.06E-02  7.23E-02  1.15E-01  3.15E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =18
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -8.9334E-02 -3.0581E-02  7.2302E-02  1.1455E-01  3.1537E-01
+ Non-SCF iterations; kpt #     9  , k= ( -0.12500  0.00000  0.00000  ), band residuals:
+ res:  1.14E-05  2.06E-05  5.30E-06  5.91E-06  8.61E-04
+ ene: -2.14E-01  1.69E-01  2.17E-01  2.17E-01  3.23E-01
+ res:  4.41E-08  3.78E-08  2.30E-09  2.76E-08  7.38E-06
+ ene: -2.14E-01  1.69E-01  2.17E-01  2.17E-01  3.23E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =19
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -2.1435E-01  1.6865E-01  2.1725E-01  2.1725E-01  3.2271E-01
+ Non-SCF iterations; kpt #    10  , k= ( -0.37500  0.00000  0.00000  ), band residuals:
+ res:  2.21E-05  5.79E-05  5.16E-07  3.33E-06  7.15E-05
+ ene: -1.57E-01  4.00E-03  1.87E-01  1.87E-01  2.93E-01
+ res:  3.70E-10  4.12E-10  4.45E-10  1.50E-09  1.77E-08
+ ene: -1.57E-01  4.00E-03  1.87E-01  1.87E-01  2.93E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =20
+     eigenvalues (hartree) for    5  bands
+              after    3 non-SCF iterations with    4 CG line minimizations
+ -1.5727E-01  3.9965E-03  1.8689E-01  1.8689E-01  2.9266E-01
+ Total charge density [el/Bohr^3]
+,     Maximum=    8.8357E-02  at reduced coord.    0.1000    0.1000    0.7000
+,     Minimum=    3.6017E-03  at reduced coord.    0.5000    0.5000    0.5000
+,  Integrated=    8.0000E+00
+ ETOT  2  -8.8721458090447    -5.333E-03 1.541E-05 1.495E-01
+ scprqt: <Vxc>= -3.5812629E-01 hartree
+
+ Pulay update with  1 previous iterations:
+ mixing of old trial potential : alpha(m:m-4)=   1.14     -0.145
+
+ ITER STEP NUMBER     3
+ vtorho : nnsclo_now=  1, note that nnsclo,dbl_nnsclo,istep=  0 0  3
+ Non-SCF iterations; kpt #     1  , k= ( -0.12500 -0.25000  0.00000  ), band residuals:
+ res:  5.47E-07  1.62E-07  1.27E-08  4.12E-07  8.05E-07
+ ene: -1.95E-01  1.08E-01  1.77E-01  1.81E-01  3.05E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =21
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.9472E-01  1.0758E-01  1.7726E-01  1.8082E-01  3.0534E-01
+ Non-SCF iterations; kpt #     2  , k= ( -0.12500  0.50000  0.00000  ), band residuals:
+ res:  1.77E-07  7.18E-07  3.67E-07  9.39E-09  9.35E-07
+ ene: -1.30E-01 -2.76E-02  1.41E-01  1.68E-01  3.08E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =22
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.2980E-01 -2.7559E-02  1.4124E-01  1.6832E-01  3.0816E-01
+ Non-SCF iterations; kpt #     3  , k= ( -0.25000 -0.37500  0.00000  ), band residuals:
+ res:  6.33E-07  1.17E-07  3.22E-07  7.76E-09  9.48E-07
+ ene: -1.55E-01  4.43E-02  1.25E-01  1.43E-01  2.74E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =23
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.5453E-01  4.4286E-02  1.2517E-01  1.4322E-01  2.7399E-01
+ Non-SCF iterations; kpt #     4  , k= ( -0.12500 -0.37500  0.12500  ), band residuals:
+ res:  4.32E-07  2.79E-07  6.63E-07  1.48E-07  9.46E-06
+ ene: -1.38E-01  8.89E-03  1.01E-01  1.54E-01  3.33E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =24
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.3799E-01  8.8897E-03  1.0051E-01  1.5376E-01  3.3282E-01
+ Non-SCF iterations; kpt #     5  , k= ( -0.12500  0.25000  0.00000  ), band residuals:
+ res:  3.37E-07  4.55E-07  3.22E-07  3.95E-09  7.17E-07
+ ene: -1.75E-01  5.41E-02  1.39E-01  1.99E-01  3.30E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =25
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.7519E-01  5.4147E-02  1.3931E-01  1.9873E-01  3.2968E-01
+ Non-SCF iterations; kpt #     6  , k= ( -0.25000  0.37500  0.00000  ), band residuals:
+ res:  9.89E-08  5.47E-07  2.36E-07  7.36E-09  4.10E-07
+ ene: -1.11E-01 -2.16E-02  7.43E-02  1.56E-01  2.93E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =26
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.1057E-01 -2.1595E-02  7.4320E-02  1.5578E-01  2.9266E-01
+ Non-SCF iterations; kpt #     7  , k= ( -0.37500  0.50000  0.00000  ), band residuals:
+ res:  4.07E-07  1.65E-07  1.04E-07  6.00E-09  5.70E-07
+ ene: -9.71E-02 -2.69E-02  9.53E-02  1.25E-01  2.56E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =27
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -9.7100E-02 -2.6912E-02  9.5325E-02  1.2515E-01  2.5583E-01
+ Non-SCF iterations; kpt #     8  , k= ( -0.25000  0.50000  0.12500  ), band residuals:
+ res:  1.77E-07  2.27E-07  1.52E-07  7.20E-07  1.03E-06
+ ene: -8.99E-02 -3.11E-02  7.10E-02  1.14E-01  3.13E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =28
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -8.9856E-02 -3.1105E-02  7.0977E-02  1.1359E-01  3.1334E-01
+ Non-SCF iterations; kpt #     9  , k= ( -0.12500  0.00000  0.00000  ), band residuals:
+ res:  2.88E-07  1.84E-07  3.45E-08  3.47E-08  8.00E-06
+ ene: -2.15E-01  1.68E-01  2.17E-01  2.17E-01  3.21E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =29
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -2.1526E-01  1.6820E-01  2.1713E-01  2.1713E-01  3.2129E-01
+ Non-SCF iterations; kpt #    10  , k= ( -0.37500  0.00000  0.00000  ), band residuals:
+ res:  3.88E-07  8.02E-07  7.29E-09  7.21E-09  1.03E-06
+ ene: -1.58E-01  3.01E-03  1.87E-01  1.87E-01  2.91E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =30
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.5800E-01  3.0077E-03  1.8669E-01  1.8669E-01  2.9093E-01
+ Total charge density [el/Bohr^3]
+,     Maximum=    8.7840E-02  at reduced coord.    0.1000    0.1000    0.7000
+,     Minimum=    3.7235E-03  at reduced coord.    0.5000    0.5000    0.5000
+,  Integrated=    8.0000E+00
+ ETOT  3  -8.8722167468772    -7.094E-05 9.464E-06 2.984E-03
+ scprqt: <Vxc>= -3.5843416E-01 hartree
+
+ Pulay update with  2 previous iterations:
+ mixing of old trial potential : alpha(m:m-4)=   1.22     -0.236      0.148E-01
+
+ ITER STEP NUMBER     4
+ vtorho : nnsclo_now=  1, note that nnsclo,dbl_nnsclo,istep=  0 0  4
+ Non-SCF iterations; kpt #     1  , k= ( -0.12500 -0.25000  0.00000  ), band residuals:
+ res:  9.56E-09  2.33E-09  2.79E-10  4.27E-09  1.44E-08
+ ene: -1.95E-01  1.08E-01  1.77E-01  1.81E-01  3.05E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =31
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.9482E-01  1.0751E-01  1.7720E-01  1.8075E-01  3.0516E-01
+ Non-SCF iterations; kpt #     2  , k= ( -0.12500  0.50000  0.00000  ), band residuals:
+ res:  2.77E-09  1.11E-08  5.15E-09  4.80E-11  2.71E-08
+ ene: -1.30E-01 -2.77E-02  1.41E-01  1.68E-01  3.08E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =32
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.2986E-01 -2.7688E-02  1.4116E-01  1.6827E-01  3.0797E-01
+ Non-SCF iterations; kpt #     3  , k= ( -0.25000 -0.37500  0.00000  ), band residuals:
+ res:  1.05E-08  1.47E-09  4.71E-09  1.14E-10  1.75E-08
+ ene: -1.55E-01  4.42E-02  1.25E-01  1.43E-01  2.74E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =33
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.5462E-01  4.4237E-02  1.2507E-01  1.4316E-01  2.7374E-01
+ Non-SCF iterations; kpt #     4  , k= ( -0.12500 -0.37500  0.12500  ), band residuals:
+ res:  7.12E-09  4.40E-09  1.01E-08  1.91E-09  1.04E-07
+ ene: -1.38E-01  8.81E-03  1.00E-01  1.54E-01  3.33E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =34
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.3806E-01  8.8105E-03  1.0039E-01  1.5368E-01  3.3262E-01
+ Non-SCF iterations; kpt #     5  , k= ( -0.12500  0.25000  0.00000  ), band residuals:
+ res:  5.78E-09  6.02E-09  4.52E-09  1.07E-10  3.92E-08
+ ene: -1.75E-01  5.41E-02  1.39E-01  1.99E-01  3.30E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =35
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.7528E-01  5.4062E-02  1.3922E-01  1.9870E-01  3.2954E-01
+ Non-SCF iterations; kpt #     6  , k= ( -0.25000  0.37500  0.00000  ), band residuals:
+ res:  1.45E-09  8.13E-09  4.05E-09  1.39E-10  7.12E-09
+ ene: -1.11E-01 -2.17E-02  7.42E-02  1.56E-01  2.92E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =36
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.1062E-01 -2.1683E-02  7.4174E-02  1.5573E-01  2.9240E-01
+ Non-SCF iterations; kpt #     7  , k= ( -0.37500  0.50000  0.00000  ), band residuals:
+ res:  5.99E-09  2.26E-09  1.55E-09  6.91E-11  1.71E-08
+ ene: -9.72E-02 -2.70E-02  9.52E-02  1.25E-01  2.56E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =37
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -9.7169E-02 -2.6963E-02  9.5199E-02  1.2509E-01  2.5553E-01
+ Non-SCF iterations; kpt #     8  , k= ( -0.25000  0.50000  0.12500  ), band residuals:
+ res:  2.61E-09  3.21E-09  2.85E-09  1.04E-08  2.05E-08
+ ene: -8.99E-02 -3.12E-02  7.08E-02  1.13E-01  3.13E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =38
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -8.9911E-02 -3.1162E-02  7.0818E-02  1.1348E-01  3.1309E-01
+ Non-SCF iterations; kpt #     9  , k= ( -0.12500  0.00000  0.00000  ), band residuals:
+ res:  5.59E-09  1.15E-09  5.16E-11  5.70E-11  1.60E-07
+ ene: -2.15E-01  1.68E-01  2.17E-01  2.17E-01  3.21E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =39
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -2.1537E-01  1.6814E-01  2.1709E-01  2.1709E-01  3.2116E-01
+ Non-SCF iterations; kpt #    10  , k= ( -0.37500  0.00000  0.00000  ), band residuals:
+ res:  6.50E-09  1.16E-08  6.05E-11  6.11E-11  1.50E-08
+ ene: -1.58E-01  2.89E-03  1.87E-01  1.87E-01  2.91E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =40
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.5809E-01  2.8905E-03  1.8665E-01  1.8665E-01  2.9074E-01
+ Total charge density [el/Bohr^3]
+,     Maximum=    8.7828E-02  at reduced coord.    0.1000    0.1000    0.7000
+,     Minimum=    3.7436E-03  at reduced coord.    0.5000    0.5000    0.5000
+,  Integrated=    8.0000E+00
+ ETOT  4  -8.8722176679890    -9.211E-07 1.600E-07 1.262E-05
+ scprqt: <Vxc>= -3.5847004E-01 hartree
+
+ Pulay update with  3 previous iterations:
+ mixing of old trial potential : alpha(m:m-4)=   1.18     -0.210      0.363E-01 -0.268E-02
+
+ ITER STEP NUMBER     5
+ vtorho : nnsclo_now=  1, note that nnsclo,dbl_nnsclo,istep=  0 0  5
+ Non-SCF iterations; kpt #     1  , k= ( -0.12500 -0.25000  0.00000  ), band residuals:
+ res:  6.80E-11  1.93E-11  1.03E-12  2.39E-11  1.27E-10
+ ene: -1.95E-01  1.07E-01  1.77E-01  1.81E-01  3.05E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =41
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.9484E-01  1.0749E-01  1.7718E-01  1.8073E-01  3.0514E-01
+ Non-SCF iterations; kpt #     2  , k= ( -0.12500  0.50000  0.00000  ), band residuals:
+ res:  2.15E-11  8.59E-11  3.05E-11  7.07E-13  3.08E-10
+ ene: -1.30E-01 -2.77E-02  1.41E-01  1.68E-01  3.08E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =42
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.2988E-01 -2.7713E-02  1.4114E-01  1.6825E-01  3.0794E-01
+ Non-SCF iterations; kpt #     3  , k= ( -0.25000 -0.37500  0.00000  ), band residuals:
+ res:  7.03E-11  1.46E-11  2.10E-11  2.38E-12  1.29E-10
+ ene: -1.55E-01  4.42E-02  1.25E-01  1.43E-01  2.74E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =43
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.5464E-01  4.4217E-02  1.2504E-01  1.4313E-01  2.7371E-01
+ Non-SCF iterations; kpt #     4  , k= ( -0.12500 -0.37500  0.12500  ), band residuals:
+ res:  4.82E-11  3.53E-11  3.97E-11  1.27E-11  1.78E-08
+ ene: -1.38E-01  8.79E-03  1.00E-01  1.54E-01  3.33E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =44
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.3809E-01  8.7887E-03  1.0036E-01  1.5366E-01  3.3259E-01
+ Non-SCF iterations; kpt #     5  , k= ( -0.12500  0.25000  0.00000  ), band residuals:
+ res:  3.53E-11  6.70E-11  2.22E-11  1.17E-12  1.75E-10
+ ene: -1.75E-01  5.40E-02  1.39E-01  1.99E-01  3.30E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =45
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.7530E-01  5.4039E-02  1.3919E-01  1.9868E-01  3.2952E-01
+ Non-SCF iterations; kpt #     6  , k= ( -0.25000  0.37500  0.00000  ), band residuals:
+ res:  1.19E-11  7.39E-11  2.76E-11  2.62E-12  7.34E-11
+ ene: -1.11E-01 -2.17E-02  7.41E-02  1.56E-01  2.92E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =46
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.1064E-01 -2.1706E-02  7.4146E-02  1.5571E-01  2.9237E-01
+ Non-SCF iterations; kpt #     7  , k= ( -0.37500  0.50000  0.00000  ), band residuals:
+ res:  5.09E-11  2.05E-11  7.87E-12  1.76E-12  1.16E-10
+ ene: -9.72E-02 -2.70E-02  9.52E-02  1.25E-01  2.55E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =47
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -9.7191E-02 -2.6982E-02  9.5171E-02  1.2506E-01  2.5549E-01
+ Non-SCF iterations; kpt #     8  , k= ( -0.25000  0.50000  0.12500  ), band residuals:
+ res:  2.26E-11  3.38E-11  1.20E-11  3.72E-11  1.62E-10
+ ene: -8.99E-02 -3.12E-02  7.08E-02  1.13E-01  3.13E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =48
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -8.9931E-02 -3.1182E-02  7.0788E-02  1.1345E-01  3.1306E-01
+ Non-SCF iterations; kpt #     9  , k= ( -0.12500  0.00000  0.00000  ), band residuals:
+ res:  4.05E-11  2.41E-11  2.91E-12  2.91E-12  1.26E-07
+ ene: -2.15E-01  1.68E-01  2.17E-01  2.17E-01  3.21E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =49
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -2.1539E-01  1.6812E-01  2.1707E-01  2.1707E-01  3.2113E-01
+ Non-SCF iterations; kpt #    10  , k= ( -0.37500  0.00000  0.00000  ), band residuals:
+ res:  4.74E-11  1.00E-10  8.98E-13  8.98E-13  1.27E-10
+ ene: -1.58E-01  2.87E-03  1.87E-01  1.87E-01  2.91E-01
+ vtowfk : number of one-way 3D ffts skipped in vtowfk until now =50
+     eigenvalues (hartree) for    5  bands
+              after    2 non-SCF iterations with    4 CG line minimizations
+ -1.5811E-01  2.8655E-03  1.8663E-01  1.8663E-01  2.9072E-01
+ Total charge density [el/Bohr^3]
+,     Maximum=    8.7826E-02  at reduced coord.    0.1000    0.1000    0.7000
+,     Minimum=    3.7449E-03  at reduced coord.    0.5000    0.5000    0.5000
+,  Integrated=    8.0000E+00
+ ETOT  5  -8.8722176733891    -5.400E-09 1.257E-07 1.524E-08
+ scprqt: <Vxc>= -3.5847290E-01 hartree
+
+ At SCF step    5, etot is converged : 
+  for the second time, diff in etot=  5.400E-09 < toldfe=  1.000E-06
+
+ Cartesian components of stress tensor (hartree/bohr^3)
+  sigma(1 1)= -6.75254852E-05  sigma(3 2)=  0.00000000E+00
+  sigma(2 2)= -6.75254852E-05  sigma(3 1)=  0.00000000E+00
+  sigma(3 3)= -6.75254852E-05  sigma(2 1)=  0.00000000E+00
+
+   1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2
+   1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2
+   2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1
+   2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1  2  1
+ ioarr: writing density data
+ioarr: file name is t3xo_DEN
+ioarr: data written to disk file t3xo_DEN
+================================================================================
+
+ ----iterations are completed or convergence reached----
+
+
+ outwf: write wavefunction to file t3xo_WFK, with accesswff -1
+ outwf with iomode: -1, cpu:     0.00, wall:     0.00
+
+ === Gap info ===
+  >>>> For spin  1
+   Minimum optical gap =   2.8319 [eV], located at k-point      :  -0.1250  0.0000  0.0000
+   Fundamental gap     =   1.0456 [eV], Top of valence bands at :  -0.1250  0.0000  0.0000
+                                        Bottom of conduction at :  -0.3750  0.5000  0.0000
+
+ Cartesian components of stress tensor (hartree/bohr^3)
+  sigma(1 1)= -6.75254852E-05  sigma(3 2)=  0.00000000E+00
+  sigma(2 2)= -6.75254852E-05  sigma(3 1)=  0.00000000E+00
+  sigma(3 3)= -6.75254852E-05  sigma(2 1)=  0.00000000E+00
+
+-Cartesian components of stress tensor (GPa)         [Pressure=  1.9867E+00 GPa]
+- sigma(1 1)= -1.98666803E+00  sigma(3 2)=  0.00000000E+00
+- sigma(2 2)= -1.98666803E+00  sigma(3 1)=  0.00000000E+00
+- sigma(3 3)= -1.98666803E+00  sigma(2 1)=  0.00000000E+00
+
+== END DATASET(S) ==============================================================
+================================================================================
+  
+ -outvars: echo values of variables after computation  --------
+            acell      1.0120000000E+01  1.0120000000E+01  1.0120000000E+01 Bohr
+              amu      2.80855000E+01
+           diemac      1.20000000E+01
+             ecut      8.00000000E+00 Hartree
+           etotal     -8.8722176734E+00
+            fcart     -0.0000000000E+00 -0.0000000000E+00 -0.0000000000E+00
+                      -0.0000000000E+00 -0.0000000000E+00 -0.0000000000E+00
+-          fftalg         112
+              kpt     -1.25000000E-01 -2.50000000E-01  0.00000000E+00
+                      -1.25000000E-01  5.00000000E-01  0.00000000E+00
+                      -2.50000000E-01 -3.75000000E-01  0.00000000E+00
+                      -1.25000000E-01 -3.75000000E-01  1.25000000E-01
+                      -1.25000000E-01  2.50000000E-01  0.00000000E+00
+                      -2.50000000E-01  3.75000000E-01  0.00000000E+00
+                      -3.75000000E-01  5.00000000E-01  0.00000000E+00
+                      -2.50000000E-01  5.00000000E-01  1.25000000E-01
+                      -1.25000000E-01  0.00000000E+00  0.00000000E+00
+                      -3.75000000E-01  0.00000000E+00  0.00000000E+00
+         kptrlatt        4   -4    4     -4    4    4     -4   -4    4
+          kptrlen      4.04800000E+01
+P           mkmem          10
+            natom           2
+            nband           5
+            ngfft          20      20      20
+             nkpt          10
+            nstep          10
+             nsym          48
+           ntypat           1
+              occ      2.000000  2.000000  2.000000  2.000000  0.000000
+            rprim      0.0000000000E+00  5.0000000000E-01  5.0000000000E-01
+                       5.0000000000E-01  0.0000000000E+00  5.0000000000E-01
+                       5.0000000000E-01  5.0000000000E-01  0.0000000000E+00
+           shiftk      5.00000000E-01  5.00000000E-01  5.00000000E-01
+          spgroup         227
+           strten     -6.7525485178E-05 -6.7525485178E-05 -6.7525485178E-05
+                       0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+           symrel      1  0  0   0  1  0   0  0  1      -1  0  0   0 -1  0   0  0 -1
+                       0 -1  1   0 -1  0   1 -1  0       0  1 -1   0  1  0  -1  1  0
+                      -1  0  0  -1  0  1  -1  1  0       1  0  0   1  0 -1   1 -1  0
+                       0  1 -1   1  0 -1   0  0 -1       0 -1  1  -1  0  1   0  0  1
+                      -1  0  0  -1  1  0  -1  0  1       1  0  0   1 -1  0   1  0 -1
+                       0 -1  1   1 -1  0   0 -1  0       0  1 -1  -1  1  0   0  1  0
+                       1  0  0   0  0  1   0  1  0      -1  0  0   0  0 -1   0 -1  0
+                       0  1 -1   0  0 -1   1  0 -1       0 -1  1   0  0  1  -1  0  1
+                      -1  0  1  -1  1  0  -1  0  0       1  0 -1   1 -1  0   1  0  0
+                       0 -1  0   1 -1  0   0 -1  1       0  1  0  -1  1  0   0  1 -1
+                       1  0 -1   0  0 -1   0  1 -1      -1  0  1   0  0  1   0 -1  1
+                       0  1  0   0  0  1   1  0  0       0 -1  0   0  0 -1  -1  0  0
+                       1  0 -1   0  1 -1   0  0 -1      -1  0  1   0 -1  1   0  0  1
+                       0 -1  0   0 -1  1   1 -1  0       0  1  0   0  1 -1  -1  1  0
+                      -1  0  1  -1  0  0  -1  1  0       1  0 -1   1  0  0   1 -1  0
+                       0  1  0   1  0  0   0  0  1       0 -1  0  -1  0  0   0  0 -1
+                       0  0 -1   0  1 -1   1  0 -1       0  0  1   0 -1  1  -1  0  1
+                       1 -1  0   0 -1  1   0 -1  0      -1  1  0   0  1 -1   0  1  0
+                       0  0  1   1  0  0   0  1  0       0  0 -1  -1  0  0   0 -1  0
+                      -1  1  0  -1  0  0  -1  0  1       1 -1  0   1  0  0   1  0 -1
+                       0  0  1   0  1  0   1  0  0       0  0 -1   0 -1  0  -1  0  0
+                       1 -1  0   0 -1  0   0 -1  1      -1  1  0   0  1  0   0  1 -1
+                       0  0 -1   1  0 -1   0  1 -1       0  0  1  -1  0  1   0 -1  1
+                      -1  1  0  -1  0  1  -1  0  0       1 -1  0   1  0 -1   1  0  0
+            tnons      0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+                       0.0000000  0.0000000  0.0000000     0.2500000  0.2500000  0.2500000
+           toldfe      1.00000000E-06 Hartree
+            typat      1  1
+              wtk        0.09375    0.09375    0.09375    0.18750    0.09375    0.09375
+                         0.09375    0.18750    0.03125    0.03125
+           xangst      0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+                       1.3388183377E+00  1.3388183377E+00  1.3388183377E+00
+            xcart      0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+                       2.5300000000E+00  2.5300000000E+00  2.5300000000E+00
+             xred      0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+                       2.5000000000E-01  2.5000000000E-01  2.5000000000E-01
+            znucl       14.00000
+
+================================================================================
+  
+
+================================================================================
+
+ Suggested references for the acknowledgment of ABINIT usage.
+
+ The users of ABINIT have little formal obligations with respect to the ABINIT group
+ (those specified in the GNU General Public License, http://www.gnu.org/copyleft/gpl.txt).
+ However, it is common practice in the scientific literature,
+ to acknowledge the efforts of people that have made the research possible.
+ In this spirit, please find below suggested citations of work written by ABINIT developers,
+ corresponding to implementations inside of ABINIT that you have used in the present run.
+ Note also that it will be of great value to readers of publications presenting these results,
+ to read papers enabling them to understand the theoretical formalism and details
+ of the ABINIT implementation.
+ For information on why they are suggested, see also http://www.abinit.org/about/?text=acknowledgments.
+
+ [1] ABINIT : First-principles approach of materials and nanosystem properties.
+ X. Gonze, B. Amadon, P.-M. Anglade, J.-M. Beuken, F. Bottin, P. Boulanger, F. Bruneval,
+ D. Caliste, R. Caracas, M. Cote, T. Deutsch, L. Genovese, Ph. Ghosez, M. Giantomassi
+ S. Goedecker, D.R. Hamann, P. Hermet, F. Jollet, G. Jomard, S. Leroux, M. Mancini, S. Mazevet,
+ M.J.T. Oliveira, G. Onida, Y. Pouillon, T. Rangel, G.-M. Rignanese, D. Sangalli, R. Shaltaf,
+ M. Torrent, M.J. Verstraete, G. Zerah, J.W. Zwanziger
+ Computer Phys. Comm. 180, 2582-2615 (2009).
+ Comment : the third generic paper describing the ABINIT project.
+ Note that a version of this paper, that is not formatted for Computer Phys. Comm. 
+ is available at http://www.abinit.org/about/ABINIT_CPC_v10.pdf .
+ The licence allows the authors to put it on the Web.
+
+ [2] A brief introduction to the ABINIT software package.
+ X. Gonze, G.-M. Rignanese, M. Verstraete, J.-M. Beuken, Y. Pouillon, R. Caracas, F. Jollet,
+ M. Torrent, G. Zerah, M. Mikami, Ph. Ghosez, M. Veithen, J.-Y. Raty, V. Olevano, F. Bruneval,
+ L. Reining, R. Godby, G. Onida, D.R. Hamann, and D.C. Allan.
+ Z. Kristallogr. 220, 558-562 (2005).
+ Comment : the second generic paper describing the ABINIT project. Note that this paper
+ should be cited especially if you are using the GW part of ABINIT, as several authors
+ of this part are not in the list of authors of the first or third paper.
+ The .pdf of the latter paper is available at http://www.abinit.org/about/zfk_0505-06_558-562.pdf.
+ Note that it should not redistributed (Copyright by Oldenburg Wissenshaftverlag,
+ the licence allows the authors to put it on the Web).
+
+
+ And optionally :
+
+ [3] First-principles computation of material properties : the ABINIT software project. 
+ X. Gonze, J.-M. Beuken, R. Caracas, F. Detraux, M. Fuchs, G.-M. Rignanese, L. Sindic,
+ M. Verstraete, G. Zerah, F. Jollet, M. Torrent, A. Roy, M. Mikami, Ph. Ghosez, J.-Y. Raty, D.C. Allan.
+ Computational Materials Science 25, 478-492 (2002). http://dx.doi.org/10.1016/S0927-0256(02)00325-7
+ Comment : the original paper describing the ABINIT project.
+
+ [4] Fast radix 2, 3, 4 and 5 kernels for Fast Fourier Transformations
+ on computers with overlapping multiply-add instructions.
+ S. Goedecker, SIAM J. on Scientific Computing 18, 1605 (1997).
+
+ Calculation completed.
+.Delivered   10 WARNINGs and   1 COMMENTs to log file.
+--- !FinalSummary
+start_date: Tue Aug  1 20: 2:40 2017
+end_date: Tue Aug  1 20: 2:41 2017
+overall_cpu_time:           0.8
+overall_wall_time:           0.8
+...

@@ -1,4 +1,4 @@
-# Crystalline silicon 
+# Crystalline silicon 					// PASTA DFT
 #
 # Computation of the band structure.
 # First, a SCF density computation, then a non-SCF band structure calculation.
